@@ -214,6 +214,31 @@ footer p{color:rgba(255,255,255,0.45);font-size:0.78rem;max-width:1100px;margin:
 .fb-meta{font-size:.72rem;color:var(--slate);font-weight:600;white-space:nowrap}
 @media(max-width:900px){.fb-board{columns:2}}
 @media(max-width:560px){.fb-board{columns:1}}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:980px){
+  .hero-inner{grid-template-columns:1fr;gap:2.75rem}
+  .hero-card{max-width:400px;width:100%;margin:0 auto}
+  .contact-inner{grid-template-columns:1fr;gap:2.5rem}
+}
+@media(max-width:760px){
+  nav{padding:0 1.25rem}
+  .nav-links{display:none}
+  .nav-controls{gap:0.55rem}
+  .hero{padding:3rem 1.25rem}
+  .hero-inner{gap:2.25rem}
+  .section{padding:3.25rem 1.25rem}
+  .contact-section{padding:3.25rem 1.25rem}
+  .section-title{font-size:1.6rem}
+  .contact-heading{font-size:1.7rem}
+}
+@media(max-width:430px){
+  .nav-badge{display:none}
+  .hero-card{padding:1.85rem}
+  .hero-photo{width:140px;height:140px}
+  .stat-num{font-size:1.4rem}
+  .hero-btns .btn{font-size:0.76rem;padding:0.55rem 1rem}
+}
 </style>
 </head>
 <body data-theme="light">
